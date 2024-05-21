@@ -1,6 +1,7 @@
 import ModalDemo from "@/components/ModalDemo";
 import NotificationDemo from "@/components/NotificationDemo";
-import { Flex, Stack, Text, Title } from "@mantine/core";
+import { Button, Flex, Stack, Text, Title } from "@mantine/core";
+import Link from "next/link";
 
 const Page = () => {
   return (
