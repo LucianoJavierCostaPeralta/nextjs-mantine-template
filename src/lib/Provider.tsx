@@ -9,6 +9,7 @@ import { ModalsProvider } from "@mantine/modals";
 import { Notifications } from "@mantine/notifications";
 import { useEffect, useState } from "react";
 import { Router } from "next/router";
+import { theme } from "./theme";
 
 function Providers({
   children,
@@ -37,7 +38,7 @@ function Providers({
   return (
     <RootStyleRegistry>
       <MantineEmotionProvider>
-        <MantineProvider stylesTransform={emotionTransform}>
+        <MantineProvider stylesTransform={emotionTransform} theme={theme}>
           <LoadingOverlay
             visible={loading}
             zIndex={1000}
