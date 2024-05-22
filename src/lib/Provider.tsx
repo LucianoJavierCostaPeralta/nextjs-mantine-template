@@ -10,6 +10,7 @@ import { Notifications } from "@mantine/notifications";
 import { useEffect, useState } from "react";
 import { Router } from "next/router";
 import { theme } from "./theme";
+import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
 
 function Providers({
   children,
@@ -46,7 +47,17 @@ function Providers({
           />
 
           <Notifications />
-          <ModalsProvider>{children}</ModalsProvider>
+          <ModalsProvider>
+            <>
+              <ProgressBar
+                height="2px"
+                color={"#13a4a4"}
+                options={{ showSpinner: false }}
+                shallowRouting
+              />
+              {children}
+            </>
+          </ModalsProvider>
         </MantineProvider>
       </MantineEmotionProvider>
     </RootStyleRegistry>

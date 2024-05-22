@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "@/lib/Provider";
 import { ColorSchemeScript } from "@mantine/core";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
