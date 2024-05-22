@@ -302,6 +302,11 @@
   resolved "https://registry.yarnpkg.com/@mantine/store/-/store-7.9.2.tgz#1b20ba4acff3c085660e28e2daa11705ae1ddcba"
   integrity sha512-oqCjse3cAp0DQI1fT5AWLW+Me6Mu4b2DVPpoRRwm7Ptw8gzUEmxb/9Brx2rkhaAym+S9sGe8IdEpNVLXaZyGXw==
 
+"@mantinex/mantine-logo@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mantinex/mantine-logo/-/mantine-logo-1.0.1.tgz#f450858364347d1efa0811925e05400b22ec9f12"
+  integrity sha512-t5Lp4Bpae+EVydBr5n0bDG6EXhQ3QY/fw29PCvnwn9LwWReIaYUKhQ4mRINyb7ted2R3MuG7VS1MZQcJ1Qh6Cg==
+
 "@next/env@14.2.3":
   version "14.2.3"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.2.3.tgz#d6def29d1c763c0afb397343a15a82e7d92353a0"
